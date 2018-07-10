@@ -1,5 +1,5 @@
-from space import Space
-from box import Box
+from .space import Space
+from .box import Box
 
 
 class Placement:

@@ -1,4 +1,4 @@
-from box import Box
+from .box import Box
 
 
 class BoxItem:

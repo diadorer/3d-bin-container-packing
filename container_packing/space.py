@@ -1,6 +1,6 @@
 from typing import Union
 
-from dimension import Dimension
+from .dimension import Dimension
 
 
 class Space(Dimension):

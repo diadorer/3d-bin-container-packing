@@ -1,9 +1,9 @@
 from typing import Union
 
-from dimension import Dimension
-from box import Box
-from level import Level, ArrayList
-from placement import Placement
+from .dimension import Dimension
+from .box import Box
+from .level import Level, ArrayList
+from .placement import Placement
 
 
 class LevelArrayList(ArrayList):

@@ -1,4 +1,4 @@
-from placement import Placement
+from .placement import Placement
 
 
 class ArrayList(list):

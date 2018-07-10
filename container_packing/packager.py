@@ -1,12 +1,12 @@
 import time
 from typing import List
 
-from binary_search_iterator import BinarySearchIterator
-from container import Container
-from dimension import Dimension
-from box_item import BoxItem
-from space import Space
-from placement import Placement
+from .binary_search_iterator import BinarySearchIterator
+from .container import Container
+from .dimension import Dimension
+from .box_item import BoxItem
+from .space import Space
+from .placement import Placement
 
 
 current_time_in_ms = lambda: round(time.time() * 1000)

@@ -6,13 +6,13 @@ Thread-safe implementation.
 
 from typing import List
 
-from packager import Packager, current_time_in_ms
-from dimension import Dimension
-from container import Container
-from box_item import BoxItem
-from box import Box
-from space import Space
-from placement import Placement
+from .packager import Packager, current_time_in_ms
+from .dimension import Dimension
+from .container import Container
+from .box_item import BoxItem
+from .box import Box
+from .space import Space
+from .placement import Placement
 
 
 class LargestAreaFitFirstPackager(Packager):

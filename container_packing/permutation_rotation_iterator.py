@@ -1,9 +1,10 @@
 import random
 
-from dimension import Dimension
-from largest_area_fit_first_packager import LargestAreaFitFirstPackager
-from box import Box
-from box_item import BoxItem
+from container_packing.dimension import Dimension
+from container_packing.largest_area_fit_first_packager import LargestAreaFitFirstPackager
+from container_packing.box import Box
+from container_packing.box_item import BoxItem
+
 
 
 containers = [Dimension.new_instance(50, 80, 5000)]
