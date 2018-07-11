@@ -26,9 +26,6 @@ class Dimension:
         else:
             name = name_or_w
 
-        if h == 0 and w != 0 and d != 0:
-            raise Exception('Why???')
-
         self.name = name
 
         self.width = w
