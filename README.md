@@ -3,6 +3,10 @@ A variant of the Largest Area Fit First (LAFF) algorithm
 
 This library is imlementation of [this library](https://github.com/skjolber/3d-bin-container-packing) using python.
 
+<a href="https://pypi.org/project/container_packing" target="_blank">
+    <img src="https://img.shields.io/pypi/v/container_packing?color=%2334D058&label=pypi%20package" alt="Package version">
+</a>
+
 ## Installation
 
 You can install it via pip:
